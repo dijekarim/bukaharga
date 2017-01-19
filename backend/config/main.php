@@ -13,11 +13,11 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'defaultRoute' => 'order/index',
-    'homeUrl' => '/bukaterop/adminpage',
+    'homeUrl' => '/bukaharga/adminpage',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
-            'baseUrl' => '/bukaterop/adminpage'
+            'baseUrl' => '/bukaharga/adminpage'
         ],
         'user' => [
             'identityClass' => 'common\models\User',

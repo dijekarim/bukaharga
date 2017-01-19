@@ -12,11 +12,11 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'defaultRoute' => 'catalog/list',
-    'homeUrl' => '/bukaterop',
+    'homeUrl' => '/bukaharga',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
-            'baseUrl' => "/bukaterop",
+            'baseUrl' => "/bukaharga",
         ],
         'user' => [
             'identityClass' => 'common\models\User',
